@@ -1,0 +1,18 @@
+default:
+  properties-table-header: "|| **Свойство** | **Тип** | **Описание** ||"
+  path-params-table-header: "|| **Параметр** | **Тип** | **Описание** ||"
+
+  identity-card-document-type: "|| `DocumentType` | `string` | Тип документа ||"
+  identity-card-series: "|| `Series` | `string` | Серия ||"
+  identity-card-number: "|| `Number` | `string` | Номер ||"
+  identity-card-issuer: "|| `Issuer` | `string` | Кем выдан ||"
+  identity-card-issuance-date-cs: "|| `IssuanceDate` | `DateTime?` | Дата выдачи ||"
+  identity-card-issuance-date-json: "|| `IssuanceDate` | `string <date-time>` | Дата выдачи ||"
+  identity-card-issuer-code: "|| `IssuerCode` | `string` | Код подразделения ||"
+
+  full-name-first-name: "|| `FirstName`* | `string` | Имя ||"
+  full-name-last-name: "|| `LastName`* | `string` | Фамилия ||"
+  full-name-middle-name: "|| `MiddleName` | `string` | Отчество ||"
+
+  person-id: "|| `PersonId`* | `string` | GUID сотрудника ||"
+  organization-id: "|| `OrganizationId*` | `string` | GUID организации ||"

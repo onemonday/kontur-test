@@ -1,0 +1,37 @@
+title: Employee
+href: index.md
+items:
+  - name: О сервисе
+    href: index.md
+  - name: Начало работы
+    href: start.md
+  - name: Сущности
+    items:
+      - name: Сотрудник (Person)
+        href: entities/person.md
+      - name: Должность (Position)
+        href: entities/position.md
+      - name: Роль (Role)
+        href: entities/role.md
+  - name: Методы
+    items:
+      - name: Сотрудники
+        items:
+          - name: Добавление сотрудника
+            href: methods/person/add.md
+          - name: Удаление сотрудника
+            href: methods/person/delete.md
+      - name: Должности
+        items:
+          - name: Просмотр должности сотрудника
+            href: methods/position/get.md
+          - name: Редактирование должности сотрудника
+            href: methods/position/save.md
+      - name: Роли
+        items:
+          - name: Просмотр всех ролей организации
+            href: methods/role/roles-in-org.md
+  - name: Дополнительно
+    items:
+      - name: Структура хранилища
+        href: extra/storage.md
