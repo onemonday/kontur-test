@@ -6,7 +6,7 @@
 
 ## Как посмотреть документацию
 
-1. Клонируйте репозиторий: `git clone https://github.com/onemonday/kontur-test.git`;
+1. Клонируйте репозиторий командой `git clone https://github.com/onemonday/kontur-test.git`.
 2. Откройте файл **docs-html** → **index.html**.
 
 ## Допущения
