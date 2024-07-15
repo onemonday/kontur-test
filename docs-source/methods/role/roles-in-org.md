@@ -19,7 +19,7 @@ GET https://employee-api.kontur.ru/roles/{OrganizationId}
 
 ## Формат ответа {#response}
 
-### 200: OK {#200}
+### // TODO: уточнить успешный код возврата у разработчика {#200}
 
 Вывод списка всех ролей в организации.
 
@@ -59,6 +59,8 @@ curl -X GET 'https://employee-api.kontur.ru/roles/c59793e3-ab1d-41f9-b229-0777e5
 #### Ответ {#example-response}
 
 ```json
+// TODO: уточнить успешный код возврата у разработчика
+
 {
     "Head": "8aeac99b-2580-4e55-8d50-f6a9bd92e1ec/Директор",
     "Sender": "1406f828-1563-4f1b-8cf6-50c9beabf8f5/Специалист"

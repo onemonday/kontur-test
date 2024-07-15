@@ -20,7 +20,7 @@ GET https://employee-api.kontur.ru/position/{PersonId}/{OrganizationId}
 
 ## Формат ответа {#response}
 
-### 200: OK {#200}
+### // TODO: уточнить успешный код возврата у разработчика
 
 Вывод должности сотрудника.
 
@@ -49,7 +49,7 @@ curl -X GET 'https://employee-api.kontur.ru/position/916c064c-ef20-4613-bdfb-9be
 #### Ответ {#example-response}
 
 ```json
-200: OK
+// TODO: уточнить успешный код возврата у разработчика
 
 {
     "Оb840a338-cd73-4097-bdf9-519281873213<->P916c064c-ef20-4613-bdfb-9bed9e0333ac": "C# Developer"

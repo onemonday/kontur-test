@@ -17,7 +17,7 @@ DELETE https://employee-api.kontur.ru/person/{PersonId}
 
 ## Формат ответа {#response}
 
-### 204: No Content {#204}
+### // TODO: уточнить успешный код возврата у разработчика
 
 Сотрудник успешно удален.
 
@@ -33,5 +33,5 @@ curl -X DELETE 'https://employee-api.kontur.ru/person/916c064c-ef20-4613-bdfb-9b
 #### Ответ {#example-response}
 
 ```json
-204: No Content
+// TODO: уточнить успешный код возврата у разработчика
 ```

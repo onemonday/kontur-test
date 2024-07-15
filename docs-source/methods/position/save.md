@@ -29,7 +29,7 @@ PUT https://employee-api.kontur.ru/position/{PersonId}
 
 ## Формат ответа {#response}
 
-### 200: OK
+### // TODO: уточнить успешный код возврата у разработчика
 
 Должность успешно отредактирована.
 
@@ -46,5 +46,5 @@ curl -X POST 'https://employee-api.kontur.ru/position/916c064c-ef20-4613-bdfb-9b
 #### Ответ {#example-response}
 
 ```json
-200: OK
+// TODO: уточнить успешный код возврата у разработчика
 ```
